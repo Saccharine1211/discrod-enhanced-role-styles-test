@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Enhanced Role Styles Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Discord Enhanced Role Styles</h1>
+        <div class="preview-box">
+            <span id="username-preview" class="username-gradient" data-text="Username">Username</span>
+        </div>
+        <div class="controls">
+            <div class="control-group">
+                <label for="username-input">Username</label>
+                <input type="text" id="username-input" value="Username">
+            </div>
+            <div class="control-group">
+                <label for="color-1">Gradient Color 1</label>
+                <div class="color-input-wrapper">
+                    <input type="color" id="color-1" value="#00fff3">
+                    <input type="text" id="color-1-text" class="color-text-input" value="#00fff3">
+                </div>
+            </div>
+            <div class="control-group">
+                <label for="color-2">Gradient Color 2</label>
+                <div class="color-input-wrapper">
+                    <input type="color" id="color-2" value="#ffffff">
+                    <input type="text" id="color-2-text" class="color-text-input" value="#ffffff">
+                </div>
+            </div>
+            <div class="control-group">
+                <label for="hover-toggle">Preview Hover State</label>
+                <input type="checkbox" id="hover-toggle">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
