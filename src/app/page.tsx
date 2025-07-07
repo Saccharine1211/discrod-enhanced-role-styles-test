@@ -4,7 +4,7 @@ import { useState, CSSProperties } from 'react';
 
 export default function Home() {
   const [username, setUsername] = useState('Username');
-  const [color1, setColor1] = useState('#00fff3');
+  const [color1, setColor1] = useState('#5865f2');
   const [color2, setColor2] = useState('#ffffff');
   const [isHovered, setIsHovered] = useState(false);
 
